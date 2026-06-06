@@ -34,9 +34,11 @@ y devuelve HTML. Esa es la idea de "templates" que querías.
 ## Pendiente
 
 ### Ahora — de Javier
-- [ ] Revisar el sitio en `localhost:5173` y marcar qué ajustar (copy, orden de secciones, colores, tamaños).
+- [ ] Revisar el sitio **en vivo**: https://popex404.github.io/algoritmo-garcia/ y marcar qué ajustar.
 - [ ] Validar/ajustar el **pricing** (modelo consultoría-primero: Sesión $25k · Acompañamiento $120k/mes · Construcción cotizada). Editable en `src/sites/algoritmo/data.jsx`.
-- [ ] Decidir el **deploy** (Cloudflare Pages o GitHub Pages + dominio).
+- [ ] (Opcional) dominio propio apuntando a Pages.
+
+> Para publicar cambios: `git add . && git commit -m "..." && git push` → se redespliega solo.
 
 ### Pulido siguiente
 - [ ] Pasar los colores del tema a un `tokens-ag.css` aparte si se quiere reusar la librería en modo oscuro para otros sitios.
@@ -60,6 +62,12 @@ rtk npm run build --prefix JG/algoritmo-garcia # build estático → dist/
 ---
 
 ## Logrado
+
+### 2026-06-06 — Deploy a GitHub Pages
+- Publicado: repo `popex404/algoritmo-garcia`, live en https://popex404.github.io/algoritmo-garcia/.
+- Workflow GitHub Actions (build + deploy) en cada push a `main`; Pages con fuente Actions (auto-enable).
+- Vite `base` condicional ('/' en dev, '/algoritmo-garcia/' en build); assets vía `import.meta.env.BASE_URL`; se quitó el router (single page).
+- Antes del deploy: pricing pivotado a consultoría-primero, carruseles mobile en Casos y Precios, varios ajustes de copy/branding.
 
 ### 2026-06-05 — Fase 3 (pulido + logo real)
 - Logo real aplicado: `Logo.png` (AG con G-engranaje, A delante) procesado a transparente con `tools/process-logo.py` (Pillow) → `public/logo-ag-white.png` (header) y `public/logo-ag.png` (favicon).
