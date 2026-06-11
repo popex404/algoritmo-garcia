@@ -17,17 +17,7 @@ export function Hero({ title, tag, ctas = [], flow }) {
     <section className="hero" id="top">
       <div className="hero-glow" />
       <div className="container hero-inner">
-        <span className="label">Algoritmo García</span>
         <h1>{title}</h1>
-        <p className="hero-tag">{tag}</p>
-
-        <div className="hero-ctas">
-          {ctas.map((c, idx) => (
-            <a key={idx} href={c.href} className={'btn ' + c.variant} {...(c.external ? { target: '_blank', rel: 'noopener' } : {})}>
-              {c.label}
-            </a>
-          ))}
-        </div>
 
         <div className="flow">
           <div className="flow-node idea">
@@ -45,6 +35,16 @@ export function Hero({ title, tag, ctas = [], flow }) {
             <span className="flow-v fade" key={'a' + i}>{cur.accion}</span>
             <span className="flow-emoji fade" key={'e' + i}>{cur.emoji}</span>
           </div>
+        </div>
+
+        <p className="hero-tag">{tag}</p>
+
+        <div className="hero-ctas">
+          {ctas.map((c, idx) => (
+            <a key={idx} href={c.href} className={'btn ' + c.variant} {...(c.external ? { target: '_blank', rel: 'noopener' } : {})}>
+              {c.label}
+            </a>
+          ))}
         </div>
       </div>
     </section>
