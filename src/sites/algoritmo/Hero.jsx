@@ -27,7 +27,6 @@ export function Hero({ title, tag, ctas = [], flow }) {
           <div className="flow-arrow">→</div>
           <div className="flow-core">
             <img src={`${import.meta.env.BASE_URL}gear-white.png`} alt="" className="flow-gear" />
-            <span className="flow-k">Algoritmo</span>
           </div>
           <div className="flow-arrow">→</div>
           <div className="flow-node accion">

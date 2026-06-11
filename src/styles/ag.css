@@ -84,7 +84,7 @@ section { padding: 6rem 0; }
 }
 
 /* ===== HERO ===== */
-.hero { position: relative; padding: 5.5rem 0 4.5rem; overflow: hidden; }
+.hero { position: relative; padding: 3rem 0 4rem; overflow: hidden; }
 .hero-glow { position: absolute; inset: 0; z-index: 0; background:
   radial-gradient(700px 380px at 78% 8%, rgba(141, 49, 180, .28), transparent 60%),
   radial-gradient(620px 360px at 12% 30%, rgba(49, 180, 141, .16), transparent 60%); pointer-events: none; }
@@ -94,8 +94,8 @@ section { padding: 6rem 0; }
 .hero-ctas { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 0; }
 
 /* Flujo Idea -> Algoritmo -> Acción */
-.flow { display: grid; grid-template-columns: 1fr auto auto auto 1fr; align-items: center; gap: 1rem; max-width: 880px; margin: 0 auto; }
-.flow-node { background: var(--bg-2); border: 1px solid var(--border); border-radius: 14px; padding: 1.4rem 1.1rem; min-height: 120px; display: flex; flex-direction: column; justify-content: center; gap: .35rem; }
+.flow { display: grid; grid-template-columns: 1fr auto auto auto 1fr; align-items: center; gap: .55rem; max-width: 880px; margin: 0 auto; }
+.flow-node { background: var(--bg-2); border: 1px solid var(--border); border-radius: 14px; padding: .85rem .9rem; min-height: 90px; display: flex; flex-direction: column; justify-content: center; gap: .35rem; }
 .flow-node .flow-k { font-size: .68rem; text-transform: uppercase; letter-spacing: .18em; color: var(--muted); }
 .flow-node .flow-v { font-family: var(--head); font-weight: 600; font-size: 1.05rem; }
 .flow-node.idea .flow-v { color: var(--text); font-style: italic; font-weight: 400; }
