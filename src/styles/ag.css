@@ -118,8 +118,8 @@ section { padding: 6rem 0; }
 @media (max-width: 720px) {
   .flow { grid-template-columns: 1fr; gap: 0; }
   .flow-arrow { transform: rotate(90deg); justify-self: center; }
-  .flow .flow-arrow:nth-child(2) { margin-bottom: .28rem; }
-  .flow .flow-arrow:nth-child(4) { margin-top: .28rem; }
+  .flow .flow-arrow:nth-child(2) { margin-bottom: .14rem; }
+  .flow .flow-arrow:nth-child(4) { margin-top: .14rem; }
   .flow-gear { width: 54px; height: 54px; }
 }
 

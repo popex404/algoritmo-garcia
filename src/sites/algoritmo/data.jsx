@@ -30,7 +30,7 @@ export const agData = {
 
   hero: {
     title: (
-      <>Convierto tus <span className="grad">ideas</span> en <span className="oro">acciones</span>.</>
+      <>Tus <span className="grad">ideas</span> en <span className="oro">acción</span></>
     ),
     tag: 'Tu idea no necesita que sepas cómo. Yo la convierto en acción.',
     ctas: [
