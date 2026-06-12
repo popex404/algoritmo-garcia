@@ -89,7 +89,7 @@ export const agData = {
   pricing: {
     label: 'Cómo cobro',
     title: 'Aprendes, decides, ejecutas. Yo te acompaño',
-    text: 'La primera reunión es gratis. Desde ahí eliges cómo avanzar: una sesión para entender y ejecutar por tu cuenta, acompañamiento continuo mientras construyes, o que me encargue yo de lo que necesites. Sin amarres, sin letra chica.',
+    text: 'La primera reunión es gratis. Desde ahí eliges: aprendes y ejecutas solo, construimos juntos, o lo hago yo.',
     plans: [
       {
         name: 'Sesión de Asesoría',
@@ -99,7 +99,7 @@ export const agData = {
         unit: 'CLP / sesión',
         feats: [
           'La primera reunión (30 min) es gratis',
-          '1 hora enfocada en lo tuyo',
+          '45 minutos enfocados en lo tuyo',
           'Sales con un plan de acción concreto',
           'Te enseño lo que necesites (cripto, IA, herramientas)',
           { text: 'No preparo material antes de la reunión', no: true },
@@ -116,7 +116,7 @@ export const agData = {
         unit: 'CLP / mes',
         feats: [
           '4 sesiones al mes (1 hora cada una)',
-          'Me preparo antes de cada reunión',
+          'Cada sesión queda documentada',
           'Preparo material a tu medida entre sesiones',
           'Reagendamos sin problema',
           'Respuestas por WhatsApp en días hábiles',
@@ -159,7 +159,7 @@ export const agData = {
   },
 
   hook: {
-    label: 'El primer paso es gratis',
+    label: null,
     title: 'Trae tu idea. Te llevas un plan de acción.',
     text: '30 minutos, sin compromiso. Salgas o no conmigo, te vas con claridad de cómo lograrlo.',
     ctas: [
