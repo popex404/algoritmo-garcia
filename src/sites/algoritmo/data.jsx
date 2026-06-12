@@ -82,14 +82,14 @@ export const agData = {
       { title: 'A&C Soluciones', tag: 'WEB', rubro: 'Control de plagas', desc: 'Una página enfocada en conseguir leads, con un formulario interactivo para cotizar al instante.', href: 'https://www.aycmip.cl/', linkLabel: 'aycmip.cl' },
       { title: 'Mi portafolio', tag: 'WEB · Portafolio', rubro: 'Proyecto personal', desc: 'Mi propio sitio donde muestro lo que he hecho. Ahí mis análisis y CV viven de forma interactiva.', href: 'https://popex404.github.io/portfolio-javier/', linkLabel: 'Ver portafolio' },
       { title: 'Alelyche Ancestral', tag: 'WEB', rubro: 'Terapia holística', desc: 'Un sitio que transmite calma y deja ver fácilmente cada servicio, con precios en moneda nacional e internacional.', href: 'https://alelycheancestral.cl', linkLabel: 'alelycheancestral.cl' },
-      { title: 'En construcción', tag: 'WSP BOT + WEB', rubro: 'Asesoría legal', desc: 'Un asistente de WhatsApp que responde y agenda solo, junto a su página. Pronto online.' },
+      { title: 'Criterio Legal', tag: 'WSP BOT + WEB', rubro: 'Asesoría legal', desc: 'Un asistente de WhatsApp que responde y agenda solo, junto a su página.', href: 'https://criteriolegal.cl', linkLabel: 'criteriolegal.cl' },
     ],
   },
 
   pricing: {
     label: 'Cómo cobro',
-    title: 'Pagas por mi tiempo, no por una caja negra',
-    text: 'La primera reunión es gratis. Desde ahí eliges: una sesión puntual, acompañamiento continuo, o que construya yo lo que necesites. Sin amarres, sin letra chica.',
+    title: 'Aprendes, decides, ejecutas. Yo te acompaño',
+    text: 'La primera reunión es gratis. Desde ahí eliges cómo avanzar: una sesión para entender y ejecutar por tu cuenta, acompañamiento continuo mientras construyes, o que me encargue yo de lo que necesites. Sin amarres, sin letra chica.',
     plans: [
       {
         name: 'Sesión de Asesoría',
@@ -171,9 +171,7 @@ export const agData = {
     copyright: '© 2026 Algoritmo García · Javier García Pinilla · Chile',
     links: [
       { href: 'https://popex404.github.io/portfolio-javier/', label: 'Portfolio' },
-      { href: 'https://github.com/popex404', label: 'GitHub' },
       { href: 'https://www.linkedin.com/in/javier-garcia-popex404/', label: 'LinkedIn' },
     ],
-    privacy: 'Convierto ideas en acciones. Informática · Diseño · Marketing · Cryptomonedas · IA.',
   },
 }
